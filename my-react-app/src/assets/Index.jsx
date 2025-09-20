@@ -1,8 +1,8 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Navbar from "./Navbar";
 import Home from "./Home";
-import About from "./About";
-import Contact from "./Contact";
+import Programming from "./Programming";
+import Spreadsheet from "./Spreadsheet";
 
 export default function Index() {
   return (
@@ -12,8 +12,8 @@ export default function Index() {
         <main style={{ padding: "20px" }}>
           <Routes>
             <Route path="/" element={<Home />} />
-            <Route path="/about" element={<About />} />
-            <Route path="/contact" element={<Contact />} />
+            <Route path="/programming" element={<Programming />} />
+            <Route path="/spreadsheet" element={<Spreadsheet />} />
           </Routes>
         </main>
       </div>
