@@ -10,7 +10,7 @@ Ok 👍 mình viết cho bạn một **checklist đầy đủ** từ đầu tớ
 npm create vite@latest my-react-app
 ```
 
-* `my-app` là tên dự án → bạn có thể đổi.
+* `my-react-app` là tên dự án → bạn có thể đổi.
 * Sau đó Vite sẽ hỏi:
 
   * **Select a framework:** chọn `React`
