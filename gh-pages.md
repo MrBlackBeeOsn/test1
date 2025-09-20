@@ -12,6 +12,7 @@ json
 }
 Đảm bảo "homepage" khớp với đường dẫn bạn muốn hiển thị.
 
+
 2. Kiểm tra đã cài gh-pages chưa
 Chạy:
 
@@ -21,6 +22,8 @@ npm list gh-pages
 
 bash
 npm install gh-pages --save-dev
+
+
 3. Kiểm tra repo đã được khởi tạo Git và có remote
 Chạy:
 
@@ -38,10 +41,14 @@ bash
 git add .
 git commit -m "Khởi tạo dự án React"
 git push origin main
+
+
 4. Chạy lại lệnh deploy
 bash
 npm run deploy
 → Nếu thành công, bạn sẽ thấy:
+
+
 
 Code
 Published to gh-pages branch
