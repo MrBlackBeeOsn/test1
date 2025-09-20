@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 export default function Spreadsheet() {
   return (
     <div>
@@ -25,7 +27,7 @@ export default function Spreadsheet() {
 
         <p className="margin-bottom-50 text-center text-small">
             
-          __Summer, 2025 - by <a href="mrbeeosn/index.html">Mr. Bee Osn</a>--
+          __Summer, 2025 - by <Link to="/mrbeeosn">Mr. Bee Osn</Link>--
           
         </p>
 
