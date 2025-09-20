@@ -5,4 +5,8 @@ import react from '@vitejs/plugin-react-swc'
 export default defineConfig({
   base: '/test1/my-react-app/', // ← thay bằng tên repo của bạn
   plugins: [react()],
+  build: {
+    outDir: 'dist',
+    assetsDir: 'assets'
+  }
 })
