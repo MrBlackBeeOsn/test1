@@ -39,3 +39,5 @@ React app sẽ hiển thị tại đó 🎉
 Nếu repo của bạn chứa cả index.html thuần ở thư mục gốc và thư mục my-react-app, bạn nên deploy React app từ nhánh riêng (gh-pages) để tránh xung đột.
 
 Nếu bạn muốn React app hiển thị ở đường dẫn phụ như /my-react-app/, bạn cần chỉnh lại homepage và cấu hình router trong React.
+
+npm run build
