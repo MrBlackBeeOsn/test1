@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://hieudev.github.io/test1/my-react-app/",
+  "homepage": "https://mrblackbeeosn.github.io/test1/my-react-app/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
